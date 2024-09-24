@@ -1,0 +1,98 @@
+.hero-section {
+    background-color: #002A47; 
+    padding: 100px 0;
+    color: white;
+  }
+  
+  .hero-text {
+    padding-right: 25px;
+  }
+  
+  .heading-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .yellow-bar {
+    width: 8px;
+    height: 150px;
+    background-color: #FFD700;
+    margin-right: 20px;
+  }
+  
+  .hero-text h1 {
+    font-size: 52px; 
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 0.95; 
+    max-width: 700px; 
+  }
+  
+  .hero-text h1 span {
+    font-size: 52px; 
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .hero-text p {
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 1.75;
+    color: #d1d1d1;
+    max-width: 480px; 
+  }
+  
+  .create-challenge-btn {
+    margin-top: 35px;
+    font-size: 20px;
+    padding: 15px 40px;
+    background-color: white;
+    color: #002A47;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800; 
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-challenge-btn:hover {
+    background-color: #002A47;
+    color: white;
+    border: 1px solid white;    
+  }
+  
+  .hero-rocket {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .rocket-icon {
+    width: 400px; 
+    height: auto;
+    transform: translateY(40px); 
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section {
+      text-align: center;
+      padding: 50px 0; 
+    }
+  
+    .hero-rocket {
+      margin-top: 30px;
+      justify-content: center;
+    }
+  
+    .rocket-icon {
+      width: 250px;
+    }
+  
+    .hero-text h1 {
+      font-size: 42px;
+    }
+  
+    .hero-text p {
+      font-size: 18px;
+    }
+  }
+  

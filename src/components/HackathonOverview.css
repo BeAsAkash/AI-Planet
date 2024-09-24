@@ -1,0 +1,89 @@
+
+.hackathon-overview-container {
+    padding: 20px;
+  }
+  
+
+  .hackathon-header {
+    background-color: #083046;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+ 
+  .header-details {
+    text-align: left;
+  }
+  
+  .start-date {
+    background-color: #ffd700;
+    color: #083046;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .hackathon-title {
+    margin-top: 15px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .hackathon-description {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: normal;
+  }
+  
+  .hackathon-level {
+    background-color: #e0f7f1;
+    color: #083046;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  
+  .edit-delete-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .edit-delete-buttons button {
+    width: 120px;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  
+  .overview-section {
+    margin-top: 40px;
+    background-color: #f8fdfb;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .overview-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #083046;
+    border-bottom: 3px solid #00aa5b;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .overview-section p {
+    font-size: 16px;
+    color: #6c757d;
+    line-height: 1.8;
+  }
+  

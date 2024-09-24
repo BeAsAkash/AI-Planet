@@ -1,0 +1,164 @@
+.explore-challenges-section {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #083046;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative; 
+}
+
+.explore-challenges-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+
+.search-filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  z-index: 2; 
+  position: relative;
+}
+
+.search-bar {
+  position: relative;
+  width: 900px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 15px 50px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  font-size: 18px;
+  color: #000000;
+}
+
+.filter-dropdown {
+  position: relative;
+}
+
+.filter-button {
+  padding: 15px 25px;
+  width: 240px;
+  border-radius: 9px;
+  border: none;
+  background-color: #ffffff;
+  color: #083046;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
+}
+
+.filter-button.open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.filter-button i {
+  margin-left: 5px;
+  color: #000000;
+}
+
+.filter-button:hover {
+  background-color: #e0f7f1;
+}
+
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 240px;
+  background-color: #ffffff;
+  list-style-type: none;
+  padding: 0;
+  border-radius: 0 0 7px 7px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-height: 0;
+  overflow: hidden;
+  display: block;
+  opacity: 0;
+  z-index: 3; 
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.dropdown-menu.open {
+  max-height: 400px;
+  opacity: 1;
+}
+
+.dropdown-menu li {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-menu li:hover {
+  background-color: #e0f7f1;
+}
+
+.filter-section-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #083046;
+  margin: 0, auto;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.filter-divider {
+  border-bottom: 1px solid #e0e0e0;
+  margin: 0, auto;
+}
+
+.filter-checkbox-container input {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+.filter-checkbox-container label {
+  font-size: 14px;
+  color: #083046;
+}
+
+
+.blur-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px); 
+  z-index: 1; 
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  pointer-events: none; 
+}
+
+.blur-overlay.open {
+  opacity: 1;
+  pointer-events: all; 
+}

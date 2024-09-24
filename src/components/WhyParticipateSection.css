@@ -1,0 +1,51 @@
+.why-participate-section {
+    padding: 50px 0;
+    background-color: #f8fdfb;
+    text-align: center; 
+}
+
+.section-title {
+    font-size: 32px; 
+    font-weight: bold;
+    color: #000; 
+    margin-bottom: 40px;
+}
+
+.highlight {
+    color: #00aa5b; 
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    justify-items: center;
+}
+
+.participate-card {
+    background-color: #eff9f5; 
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    width: 100%; 
+    max-width: 400px; 
+}
+
+.participate-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.participate-card h3 {
+    font-size: 20px; 
+    font-weight: bold;
+    color: #000; 
+    margin-bottom: 10px;
+}
+
+.participate-card p {
+    font-size: 16px; 
+    color: #6c757d; 
+}

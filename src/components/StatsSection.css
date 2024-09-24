@@ -1,0 +1,51 @@
+.stats-section {
+    background-color: #043953;
+    padding: 40px 0;
+  }
+  
+  .stats-row {
+    margin-top: 20px;
+  }
+  
+  .stat-item {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+    position: relative; 
+  }
+  
+  .stat-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+
+  .vertical-divider {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+
+  .stat-item:last-child .vertical-divider {
+    display: none;
+  }
+  
